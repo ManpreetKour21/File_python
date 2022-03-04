@@ -1,0 +1,6 @@
+f=open('student.txt',mode='r')
+print(f.tell())
+f.seek(8)
+print(f.tell())
+data=f.read()
+print(data)
